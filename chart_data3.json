@@ -1,0 +1,21 @@
+[{
+  "name": "A",
+  "value": 10,
+  "linkWith": "G",
+  "children": 
+  	[
+	 { "name": "B", "value": 7 },
+	 { "name": "C", "value": 7,
+		"children": [{"name": "D", "value": 3},
+			     {"name": "E", "value": 3},
+			     {"name": "F", "value": 3}
+			    ]
+	 }
+	]
+},
+{
+  "name": "G",
+  "value": 10,
+  "children": 
+  	[{ "name": "H", "value": 7 }]
+}]
